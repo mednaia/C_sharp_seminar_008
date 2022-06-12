@@ -10,7 +10,7 @@ for (int i = 0; i < text.Length; i++)
         if (symbol==text[j])
         {
             count++; 
-            text = text.Remove(text[j], 1); //Не работает
+            text = text.Remove(j,1); 
             j--;
         }
     }
